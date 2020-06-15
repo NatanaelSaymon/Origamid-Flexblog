@@ -23,3 +23,28 @@ img{
   display: block;
   max-width: 100%;
 }
+
+/* SUPERINFO */
+.superinfo-bg{
+  background-color: #122ab2;
+  color: #fff;
+}
+
+.superinfo{
+  display: flex;
+  margin: 0 auto;
+  max-width: 960px;
+  padding-top: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.superinfo p, .superinfo a{
+  margin: 0 10px 10px 10px;
+}
+
+.superinfo a{
+  color: #fff;
+}
+
+/* MENU */
