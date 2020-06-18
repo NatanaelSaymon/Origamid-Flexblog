@@ -244,3 +244,89 @@ section.sobre{
   color: #122ab2;
   border-radius: 50%;
 } 
+
+.preco-item a{
+  max-width: 300px;
+  display: block;
+  margin: 20px auto;
+  border: 4px solid #222222;
+  background: #f7f7f7;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 2.25em;
+  font-weight: bold;
+  color: #222222;
+  transition: filter 2s;
+}
+
+.preco-item a:hover{
+  filter: brightness(50%);
+}
+
+@media (max-width: 800px){
+  .precos{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 506px){
+  .ouro{
+    order: 1;
+  }
+
+  .prata{
+    order: 2;
+  }
+
+  .cobre{
+    order: 3;
+  }
+}
+
+/* QUALIDADE */
+
+.qualidade{
+  max-width: 960px;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.qualidade-item{
+  flex: 1 1 300px;
+  margin: 20px 10px;
+}
+
+.qualidade-item h2{
+  font-size: 2.25em;
+  color: #a4a4a4;
+  margin-bottom: 20px;
+}
+
+.qualidade-item h2::before{
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 30px;
+  margin-right: 10px;
+  background: #000;
+}
+
+h2.color-purple::before{
+  background: #ae81ff;
+}
+
+h2.color-pink::before{
+  background: #f9265e;
+}
+
+h2.color-blue::before{
+  background: #66d9eb;
+}
+
+.qualidade-item p{
+  font-size: 1.25em;
+  line-height: 1.4;
+  color: #7c7c7c;
+}
